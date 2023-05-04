@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <section class="photo" id="inicio">
+  
+        <div class="nav" id="sticker">
+        <label for="toggle">&#9776</label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu">
+          <h5 class="lab_04">LAB SEMANA 04</h5>
+          <a href="#inicio">inicio</a>
+          <a href="#servicio">servicios</a>
+          <a href="#Formacion">Formacion</a>
+          <a href="#contacto">contacto</a>
+        </div>
+      </div>
+        <div class="photo-text">
+        <h4 data-ix="skype">Mi Portafolio</h4>
+        <p data-ix="subtitle-hero-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, quasi laboriosam architecto voluptatibus et, asperiores.</p>
+          </div>
+        <div class="overlay"></div>
+      </section>
+      <section class="content">
+        <div class="grand-title" id="servicio">
+          <h4 data-ix="slowfade-scroll-bigs">Bienvenido
+            Hola 
+            Este es mi sitio web donde puedes encontrar informacion sobre los proyectos donde trabaje , y tambien los proyectos donde actualmente trabajo.
+            
+            Los principales propositos de esta pagina son:</h4>
+          
+        </div>
+        <div class="text">
+          <div class="inner-text">
+            <h3 data-ix="slowfade-scroll-bigs">genialidea</h3>
+            <i class="ic ion-fork"></i>
+            <div class="text-box">
+              <h5 data-ix="slowfade-scroll-bigs">Primero</h5>
+              <p data-ix="slowfade-scroll-bigs">poder compartir esta pagina como portafolio y que la gente me conozca</p>
+            </div>
+          </div>
+          <div class="inner-text">
+            <h3 data-ix="slowfade-scroll-bigs">genialidea</h3>
+            <i class="ic ion-knife"></i>
+            <div class="text-box">
+              <h5 data-ix="slowfade-scroll-bigs">Segundo</h5>
+              <p data-ix="slowfade-scroll-bigs">mantener informado a mis seguidores sobre nuevos proyectos y nuevos estudios.</p>
+            </div>
+          </div>
+          <div class="inner-text">
+            <h3 data-ix="slowfade-scroll-bigs">genialidea</h3>
+            <i class="ic ion-spoon"></i>
+            <div class="text-box">
+              <h5 data-ix="slowfade-scroll-bigs">genialidea</h5>
+              <p data-ix="slowfade-scroll-bigs">Espero de  que te guste el contenido</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="inner-content">
+          <div class="boxy"></div>
+          <div class="boxy">
+            <div id="slider">
+              <figure>
+                <ul>
+                  <li>
+                    <h4>Lorem ipsum 1</h4>
+                    <img src="imagenes/icn1.png" alt="" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, perspiciatis.</p>
+                  </li>
+                  <li>
+                    <h4>Lorem ipsum 2</h4>
+                    <img src="imagenes/mau.jpg" alt="" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, fugiat!</p>
+                  </li>
+                  <li>
+                    <h4>Lorem ipsum 3</h4>
+                    <img src="imagenes/oss.png" alt="" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, nemo!</p>
+                  </li>
+                </ul>
+              </figure>
+            </div>
+          </div>
+        </div>
+      
+        <section class="portafolio" id="Formacion">
+          <h4 data-ix="slowfade-scroll-bigs">Formacion</h4>
+          <div class="portafolio-container">
+            <section class="portafolio-item">
+              <img src="imagenes/naru.png" alt="" class="portafolio-img" />
+              <section class="portafolio-text">
+                <h5>genialidea</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque, error nostrum tempora sapiente corporis.</p>
+              </section>
+            </section>
+            <section class="portafolio-item">
+              <img src="imagenes/osos (1).jpg" alt="" class="portafolio-img"/>
+              <section class="portafolio-text">
+                <h5>genialidea.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque, error nostrum tempora sapiente corporis.</p>
+              </section>
+            </section>
+            <section class="portafolio-item">
+              <img src="imagenes/prog.jpg" alt="" class="portafolio-img"/>
+              <section class="portafolio-text">
+                <h5>Tecnologias y Lenguajes de Programación</h5>
+                <p>Lenguajes de Programación.</p>
+              </section>
+            </section>
+          </div>
+        </section>
+      </section>
+      <div class="footer" id="contacto">
+        <h4 data-ix="slowfade-scroll-bigs">Contacto</h4>
+        <div class="container">
+        <form action="enviar.php" method="post">
+          <ul class="flex-outer">
+            <li>
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" placeholder="Ingresa Nombre" class="rect" required>
+            </li>
+            <li>
+              <label for="correo">Correo</label>
+              <input type="email" name="correo" placeholder="Ingresa Correo" class="rect" required>
+            </li>
+            <li>
+              <label for="fono">Teléfono</label>
+              <input type="text" name="telefono" placeholder="Ingresa Teléfono" class="rect" required>
+            </li>
+            <li>
+              <label for="mensaje">Mensaje</label>
+              <textarea rows="6" name="mensaje" class="rect" required></textarea>
+            </li>
+            <li class="center">
+              <button type="submit">Enviar</button>
+            </li>
+            <li>
+              <a href="#inicio">inicio</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+      </div>
+      
+</body>
+</html>
